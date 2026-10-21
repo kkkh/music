@@ -48,6 +48,14 @@ More info https://github.com/xizeyoupan/MetingJS
   用于docker，默认1010
 - GID
   用于docker，默认1010
+- ICP_BEIAN
+  网站 ICP 备案号，展示在页面底部并链接至工信部备案系统。部署在中国大陆境内时必须填写真实备案号。
+- POLICE_BEIAN
+  公安联网备案号，如 `粤公网安备44030502001234号`，展示在页面底部并链接至全国互联网安全管理服务平台；填写真实备案号后会自动生成带 `code` 参数的直达查询链接。
+- SITE_DOMAIN
+  页脚展示的域名（可选，默认自动获取当前访问域名）。
+- SITE_NAME
+  页脚版权名称（可选，默认 `Meting API`）。
 
 ## 部署
 
